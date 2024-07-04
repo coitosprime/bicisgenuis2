@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: white;
+    background-image: url(/imagenes/BICIS/orilla-del-lago_3840x2400_xtrafondos.com.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+nav{
+    background-color: rgba(255, 255, 255, 0.658);
+    box-shadow: 3px 3px 4px 3px rgba(54, 54, 54, 0.678);
+    height: 100px;
+}
+ul{
+    list-style: none;
+    height: 100px;
+    text-align: center;
+    padding: 50px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+li{
+    padding: 12px 20px;
+    margin: 15px;
+    transition-property:inherit ;
+    transition-duration: 1s;
+ }
+
+
+ li:hover{
+    transition: 0.3s;
+    background-color: gray;
+    transform:scale(20px, 10px)
+ }
+ a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+img{
+    height: 400px;
+    width: 400px;
+    margin-top: 100px;
+    margin-left: 10px;
+ 
+}
+
+.imagen_SLP{
+    padding: 50px;
+    display: flex;
+    margin: 20px;
+}
+section{
+    display: flex;
+    padding: 80px;
+    justify-content: center;
+}
+.BICIS_SLP{
+    display: flex;
+    justify-content: center;
+}
+.contenedortarjeta{
+    display: flex;
+    justify-content:center;
+    flex-direction: row;
+    gap: 60px;
+    font-family:monospace ;
+    width: 100vw;
+    height: 800px;
+}
+.tarjetatexto{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    font-size: 20px;
+    color: whitesmoke;
+    font-weight: 600;
+    font-size: xx-large;
+}
+.botonR{
+    width: 200px;
+    margin: 40px;
+    display: inline-block;
+    background-color: red;
+    padding: 15px 30px;
+    border-radius: 30px;
+    color: white;
+    font-family: sans-serif;
+    font: weight 900;
+}
+
+.tarjeta{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(163, 161, 161, 0.705);
+    height: 650px;
+    border: 1px solid black;
+    border-radius: 10%;
+    width: 430px;
+   
+
+}
+img{
+    width: 400px;
+    height: 350px;
+    border: 1px solid black;
+    border-radius: 10%;
+    margin-top: 0;
+    margin-right:5px;
+    
+}
